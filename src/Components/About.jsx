@@ -8,7 +8,7 @@ import image from "../images/work.jpg";
 const imageAltText = "purple and blue abstract background";
 
 const description =
-  "I am a third-year computer science student at Kathmandu University. My passion for technology and innovation drives me to actively engage in student clubs, open-source communities, and collaborative projects. I thrive at the intersection of design, data, and development, seeing boundless opportunities for exploration and creation. Serving as a Student Ambassador for Microsoft, I'm dedicated to fostering a dynamic tech community. I am deeply passionate about exploring and experimenting within the dynamic realm of technology.";
+  "I am a third-year computer science student at Kathmandu University. My passion for technology and innovation drives me to actively engage in student clubs, open-source communities, and collaborative projects. I thrive at the intersection of design, data, and development, seeing boundless opportunities for exploration and creation. I am deeply passionate about exploring and experimenting within the dynamic realm of technology.";
 
 const skillsList = [
   "User Interface (UI)",
