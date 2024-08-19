@@ -1,9 +1,6 @@
-
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
-
-
 import image from "../images/bye.jpg";
 
 const imageAltText = "a girl and her laptop";

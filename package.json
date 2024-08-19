@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Dilasha's Portfolio",
   "source": "src/index.html",
-  "homepage": "https://dilashaupadhyay.github.io/Personal-portfolio",
+  "homepage": "https://dilashaupadhyay.github.io/Personal-portfolio/Home",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build",
