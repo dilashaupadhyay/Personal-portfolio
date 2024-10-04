@@ -8,7 +8,7 @@ import image from "../images/work.jpg";
 const imageAltText = "purple and blue abstract background";
 
 const description =
-  "I am a third-year computer science student at Kathmandu University. My passion for technology and innovation drives me to actively engage in student clubs, open-source communities, and collaborative projects. I thrive at the intersection of design, data, and development, seeing boundless opportunities for exploration and creation. I am deeply passionate about exploring and experimenting within the dynamic realm of technology.";
+  "Final-year Computer Science student at Kathmandu University with practical experience in leading student clubs, contributing to open-source projects, and participating in hackathons. Proficient in design and software development, with a passion for solving complex problems through innovation. Seeking opportunities to collaborate on impactful projects and drive open-source initiatives.";
 
 const skillsList = [
   "User Interface (UI)",

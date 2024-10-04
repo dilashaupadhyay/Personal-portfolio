@@ -1,5 +1,3 @@
-
-
 import React from "react";
 
 import About from "./Components/About";
@@ -10,10 +8,9 @@ import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
 
-
 const siteProps = {
   name: "Dilasha Upadhyay",
-  title: "CS Student, KU   Alpha MLSA",
+  title: "CS Student, KU",
   email: "dilashaupa.gmail.com",
   gitHub: "dilashaupadhyay",
   instagram: "dilasha.haha",
@@ -28,7 +25,7 @@ const secondaryColor = "#D2F1E4";
 const App = () => {
   return (
     <div id="main">
-      <Header />
+      <Header name={siteProps.name} title={siteProps.title} />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />

@@ -6,24 +6,24 @@ const Portfolio = () => {
 
   const projectList = [
     {
-      title: "E-Matadaan",
-      description: "An online voting platform for the class representative.",
-      url: "https://github.com/dilashaupadhyay/E-matadaan",
-    },
-    {
       title: "BizzBuzz",
       description:
-        "An e-commerce site for the business owners to track their sales and manage their products.",
+        "BizzBuzz is an eCommerce platform designed to help business owners effortlessly track and manage their expenses.",
       url: "https://github.com/xdGTH/Bizz-Buzz-Beta",
     },
     {
+     title: "RentEase",
+      description: "RentEase is a comprehensive property rental management system designed to simplify the process for both landlords and tenants.",
+      url: "https://github.com/dilashaupadhyay/RentEase",
+    },
+    {
       title: "GestureSync",
-      description: "Sign language detection.",
+      description: "GestureSync is a sign detection model designed to interpret and translate human gestures into meaningful actions or commands.",
       url: "https://github.com/dilashaupadhyay/GestureSync",
     },
     {
       title: "ScoreGreen",
-      description: "An ecothon project.",
+      description: "ScoreGreen is an innovative platform that promotes eco-friendly behavior by rewarding individuals for their environmentally conscious actions. ",
       url: "https://github.com/dilashaupadhyay/ScoreGreen",
     },
   ];
