@@ -6,8 +6,8 @@
   "homepage": "https://dilashaupadhyay.github.io/Personal-portfolio/",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir dist",
-    "build-gh": "parcel build src/index.html --public-url './' --dist-dir dist",
+    "build": "parcel build",
+    "build-gh": "parcel build --public-url 'https://dilashaupadhyay.github.io/Personal-portfolio/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
