@@ -26,7 +26,7 @@ section.min-height {
 }
 
 section.padding {
-  padding: 5rem 0;
+  padding: 5rem 2rem;
 }
 
 section img.background {
@@ -43,14 +43,14 @@ section img.background {
 
 h1 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-size: 6vw; /* Scales based on screen width */
   font-weight: 400;
   line-height: 0.8;
   margin: 0;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2vw; /* Scales based on screen width */
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
@@ -63,7 +63,7 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 0;
   font-weight: 300;
@@ -71,11 +71,11 @@ p {
 }
 
 p.large {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 p.small {
-  font-size: 15px;
+  font-size: 0.9rem;
   color: #666;
 }
 
@@ -109,7 +109,7 @@ a:hover {
 .container {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjusts better for small screens */
   margin: 20px auto;
   width: 90%;
 }
@@ -144,15 +144,19 @@ img.socialIcon:hover {
 /* Media Queries */
 @media (max-width: 768px) {
   section.padding {
-    padding: 3rem 1rem;
+    padding: 3rem 1.5rem;
   }
 
   h1 {
     font-size: 5rem;
   }
 
+  h2 {
+    font-size: 1.8rem;
+  }
+
   .container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
   img.socialIcon {
@@ -163,10 +167,37 @@ img.socialIcon:hover {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
   }
 
   p {
     font-size: 16px;
+  }
+
+  section.padding {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img.socialIcon {
+    height: 20px;
+    width: 20px;
   }
 }

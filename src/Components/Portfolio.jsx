@@ -26,6 +26,17 @@ const Portfolio = () => {
       description: "ScoreGreen is an innovative platform that promotes eco-friendly behavior by rewarding individuals for their environmentally conscious actions. ",
       url: "https://github.com/dilashaupadhyay/ScoreGreen",
     },
+    {
+      title: "EpidemicGraph",
+      description: " EpidemicGraph is a python-based application that allows users to analyze the spread of a virus in various cities. ",
+      url: "https://github.com/dilashaupadhyay/Epidemic-Graph",
+    },
+    {
+      title: "ParticleCubeSimulation",
+      description:" ParticleCubeSimulation is a Python script utilizing Pygame and OpenGL to create a dynamic 3D simulation with a rotating cube and interacting particles featuring collision detection and response.",
+      url: "https://github.com/dilashaupadhyay/ParticleCubeSimulation",
+    },
+  
   ];
   return (
     <section className="padding" id="portfolio">
