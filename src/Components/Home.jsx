@@ -10,7 +10,7 @@ const Home = ({ name, title }) => {
     <section id="home" className="min-height">
       <img className="background" src={image} alt="Background" />
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
-        <h1>{name}</h1>
+        <h1 className="animated-name">{name}</h1> {/* Name with animation class */}
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%", transform: "translateX(-50%)" }}>
@@ -22,7 +22,7 @@ const Home = ({ name, title }) => {
 
 Home.defaultProps = {
   name: "Dilasha Upadhyay",
-  title: "CS Student, KU",
+  title: "CS Student, KU Beta MLSA",
 };
 
 Home.propTypes = {
