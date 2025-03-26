@@ -8,13 +8,15 @@ import image from "../images/work.jpg";
 const imageAltText = "purple and blue abstract background";
 
 const description =
-  "Final-year Computer Science student at Kathmandu University with practical experience in leading student clubs, contributing to open-source projects, and participating in hackathons. Proficient in design and software development, with a passion for solving complex problems through innovation. Seeking opportunities to collaborate on impactful projects and drive open-source initiatives.";
+Final-year Computer Science student at Kathmandu University with hands-on experience in leading student clubs, contributing to open-source communities, and participating in hackathons. Skilled in software quality assurance and design, with a passion for quality and creativity in technology. Eager to collaborate on impactful projects and drive meaningful contributions to open-source initiatives.;
 
 const skillsList = [
-  "User Interface (UI)",
-  "User experience (UX)",
-  "Technical Writing",
-  "Front-end development",
+   "Quality Assurance"
+   "Technical Writing"
+   "User Interface (UI)",
+   "User experience (UX)",
+ ,
+  ,
   ,
 ];
 
