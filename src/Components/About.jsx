@@ -1,27 +1,19 @@
-
-
 import React from "react";
-
-
 import image from "../images/work.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
 const description =
-Final-year Computer Science student at Kathmandu University with hands-on experience in leading student clubs, contributing to open-source communities, and participating in hackathons. Skilled in software quality assurance and design, with a passion for quality and creativity in technology. Eager to collaborate on impactful projects and drive meaningful contributions to open-source initiatives.;
+  "Final-year Computer Science student at Kathmandu University with hands-on experience in leading student clubs, contributing to open-source communities, and participating in hackathons. Skilled in software quality assurance and design, with a passion for quality and creativity in technology. Eager to collaborate on impactful projects and drive meaningful contributions to open-source initiatives.";
 
 const skillsList = [
-   "Quality Assurance"
-   "Technical Writing"
-   "User Interface (UI)",
-   "User experience (UX)",
- ,
-  ,
-  ,
+  "Quality Assurance",
+  "Technical Writing",
+  "User Interface (UI)",
+  "User Experience (UX)",
 ];
 
-
-const detailOrQuote = " ";
+const detailOrQuote = "Striving for quality and innovation in technology.";
 
 const About = () => {
   return (
@@ -48,8 +40,8 @@ const About = () => {
             gap: "3rem",
           }}
         >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
+          {skillsList.map((skill, index) => (
+            <li key={index}>{skill}</li>
           ))}
         </ul>
         <hr />
